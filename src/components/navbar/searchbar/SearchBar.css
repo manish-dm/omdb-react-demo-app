@@ -1,0 +1,36 @@
+:root {
+    --searchColor: white;
+}
+
+.SearchBar {
+    width: 22rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--searchColor);
+    border-radius: 5px;
+}
+
+.searchField {
+    width: 20rem;
+    height: 2rem;
+    padding: 3px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--searchColor);
+}
+
+.clearIconStyle {
+    cursor: pointer;
+}
+
+.searchBtn {
+    outline: none;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 2px;
+    height: 2rem;
+    cursor: pointer;
+}

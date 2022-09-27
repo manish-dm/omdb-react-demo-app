@@ -1,0 +1,9 @@
+.HomePageCss {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow-x: auto;
+    width: 100%;
+}

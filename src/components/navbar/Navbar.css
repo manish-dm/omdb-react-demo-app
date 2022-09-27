@@ -1,0 +1,46 @@
+.mainNav {
+    width: 100vw;
+    height: 4rem;
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-image: url(../../assets/navBackImg1.jpg);
+    color: black;
+    box-shadow: 0 2px 5px 0 rgb(175, 170, 170);
+}
+
+.searchBar {
+    background-color: pink;
+    width: 50rem;
+    height: 100%;
+}
+
+.logoAndTitle {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    width: fit-content;
+}
+
+.logoAndTitle h3 {
+    margin-left: 5px;
+}
+
+.SearchAndLinks {
+    display: flex;
+    align-items: center;
+}
+.tabLink{
+    cursor: pointer;
+    margin: 0 0.6rem;
+}
+
+.userIconCss {
+    background: white;
+    max-width: 2rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
